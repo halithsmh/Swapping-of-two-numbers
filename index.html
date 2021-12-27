@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Swapping of two Numbers</h2>
+
+    <div class="input-layout">
+        <span>Enter the 1st Number</span>
+        <input type="number" placeholder="Enter Num1" id="num1"> <br>
+        <span>Enter the 2nd Number</span>
+        <input type="number" placeholder="Enter Num2" id="num2"><BR></BR>
+        <input onclick="swap()" type="submit" id="subBtn">
+        <input type="reset" onclick="reset()" id="reset">
+    </div>
+
+    <h2>Output</h2>
+
+    <div class="output-layout">
+        <div class="highlight">
+            <h3>The first number before swapping <span id="num1B"></span></h3>
+            <h3>The second number before swapping <span id="num2B"></span></h3>
+        </div>
+        <div class="highlight">
+            <h3>The first number after swapping <span id="num1A"></span></h3>
+            <h3>The second number after swapping <span id="num2A"></span></h3>
+        </div>
+    </div>
+
+    <footer>All Rights Reserved. 2021 <b>SMH</b></footer>
+
+
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
